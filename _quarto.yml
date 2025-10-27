@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sumitra Ghalley — Student MBA Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+format:
+  html:
+    theme: cosmo
+    toc: false
